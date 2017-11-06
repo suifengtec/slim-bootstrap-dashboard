@@ -23,7 +23,30 @@ composer require danjam/slim-mustache-view
 # Design
 
 https://startbootstrap.com/template-overviews/sb-admin/
+
 https://blackrockdigital.github.io/startbootstrap-sb-admin-2/pages/index.html
 
 http://demo.patternlab.io/
 
+# Git
+```
+
+git remote add origin https://github.com/suifengtec/slim-bootstrap-dashboard
+git remote -v
+git remote rm origin
+git remote add origin https://github.com/suifengtec/slim-bootstrap-dashboard
+
+git pull origin master
+
+//看到
+fatal: refusing to merge unrelated histories
+
+git push origin master
+//看到
+... See the 'Note about fast-forwards' in 'git push --help' for details.
+
+//执行
+git pull origin master --allow-unrelated-histories
+
+git push origin master
+```
