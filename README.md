@@ -2,6 +2,12 @@
 是一个把 {{ mustache }} 模板引擎作为 Slim 框架后台的种子项目。
 
 Bootstrap Dashboard 模板使用了 [这个设计](https://startbootstrap.com/template-overviews/sb-admin/).
+![](https://raw.githubusercontent.com/suifengtec/slim-bootstrap-dashboard/master/screenshot/1.png)
+![](https://raw.githubusercontent.com/suifengtec/slim-bootstrap-dashboard/master/screenshot/2.png)
+![](https://raw.githubusercontent.com/suifengtec/slim-bootstrap-dashboard/master/screenshot/3.png)
+![](https://raw.githubusercontent.com/suifengtec/slim-bootstrap-dashboard/master/screenshot/4.png)
+![](https://raw.githubusercontent.com/suifengtec/slim-bootstrap-dashboard/master/screenshot/5.png)
+![](https://raw.githubusercontent.com/suifengtec/slim-bootstrap-dashboard/master/screenshot/6.png)
 
 # 怎么用
 
