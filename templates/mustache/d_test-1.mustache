@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+{{> head }}
+<body class="fixed-nav sticky-footer bg-dark" id="page-top">
+    {{> left-menu }}
+  <div class="content-wrapper">
+    <div class="container-fluid">
+      <!-- Breadcrumbs-->
+        {{>d-breadcrumb }}
+      <div class="row">
+        <div class="col-lg-12">
+              <h1>{{ page_title }}</h1>
+              <hr>
+              <p>这是测试页面1 ,用于演示 mustache 语法。</p>
+             <hr>
+              <!-- Blank div to give the page height to preview the fixed vs. static navbar-->
+              <div >
+
+                <!--  布尔值  -->
+                {{#bool_1 }}
+                  <p>布尔值 1： 真</p>
+                 {{/bool_1 }}
+
+                {{^bool_2 }}
+                  <p>布尔值 2： 假</p>
+                 {{/bool_2 }}
+                 <hr>
+                <!-- HTML 输出  -->
+                HTML 输出: {{{ html_1 }}}
+                <hr>
+              </div>
+        </div><!--//col-lg-12-->
+      </div>
+      <!-- Example DataTables Card-->
+
+    </div>
+    <!-- /.container-fluid-->
+    <!-- /.content-wrapper-->
+    {{>sub-footer}}
+    <!-- Scroll to Top Button-->
+    {{>scroll2top}}
+
+      {{>d-models}}
+
+
+  </div>
+
+
+
+{{> footer }}
